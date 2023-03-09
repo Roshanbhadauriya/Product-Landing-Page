@@ -172,6 +172,16 @@ h2{
    margin:auto;
    padding-bottom: 10px;
 }
+        footer ul{
+            font-size:0.5rem;
+        }
+        .wallpaper{
+    width:240px;
+    height: 160px;
+    object-fit:cover;
+    border-radius: 10px;
+   
+}
 
 }
     
