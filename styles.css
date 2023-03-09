@@ -170,11 +170,12 @@ h2{
     }
         #nav-bar ul li{
         text-align:center;
+            padding-bottom:5px;
         }
         #nav-bar ul {
         width:100vw;
         gap:0;
-        font-size:0.4rem;
+        font-size:0.5rem;
             padding:5px;
             height:30px;
             text-align:center;
