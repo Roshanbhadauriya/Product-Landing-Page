@@ -158,7 +158,8 @@ h2{
     @media (max-width:500px){
         main{
             width:400;
-            margin:auto;
+            margin:40px auto;
+            
     }
         #nav-bar ul {
         width:100vw;
@@ -166,6 +167,11 @@ h2{
         font-size:0.4rem;
             padding:5px;
     }
+        footer div{
+   width: 100%;
+   margin:auto;
+   padding-bottom: 10px;
+}
 
 }
     
