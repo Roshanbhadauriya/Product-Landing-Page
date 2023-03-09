@@ -159,8 +159,16 @@ h2{
         padding: 0;
     
     }
-    #nav-bar ul li{
+    #nav-bar ul {
+        width:100vw;
         font-size:1rem;
+    }
+    .wallpaper{
+        width:290px;
+        height: 180px;
+        object-fit:cover;
+        border-radius: 10px;
+       
     }
 
 }
