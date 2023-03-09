@@ -153,26 +153,22 @@ h2{
         justify-content:space-around;
         
     }
-    Main{
-        width: 400px;
-        margin-right:20px;
-        padding: 0;
     
+    
+    @media (max-width:500px){
+        main{
+            width:400;
+            margin:auto;
     }
-    #nav-bar ul {
+        #nav-bar ul {
         width:100vw;
         gap:0;
-        font-size:1rem;
-    }
-    .wallpaper{
-        width:290px;
-        height: 180px;
-        object-fit:cover;
-        border-radius: 10px;
-       
+        font-size:0.4rem;
+            padding:5px;
     }
 
 }
+    
 @media (prefers-reduced-motion: no-preference) {
     * {
       scroll-behavior: smooth;
